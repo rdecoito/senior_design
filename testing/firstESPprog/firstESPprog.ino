@@ -12,8 +12,8 @@
  * CLK: GPIO14
  * CS: GPIO15
  */
-const char HOME_SSID[26] = "Drop It Like It's Hotspot";
-const char HOME_PASS[23] = "AaronDavidKendalLandon";
+const char HOME_SSID[26] = "SSID OF NETWORK";
+const char HOME_PASS[23] = "PASS OF NETWORK";
 
 //ICACHE_RAM_ATTR void SPI_cs_int {
 //  
