@@ -1,6 +1,7 @@
 //#include <SPI.h>
 #include <ESP8266WiFi.h>
 #include <WiFiUDP.h>
+#include "../config.h"
 
 /*
  * Hardcode SSID and Password for prototyping
@@ -13,10 +14,8 @@
  * CLK: GPIO14
  * CS: GPIO15
  */
-const char HOME_SSID[] = "SSID";
-const char HOME_PASS[] = "PASSWORD";
 
-const char TARGET_IP[] = "10.0.0.15";
+const char TARGET_IP[] = "10.0.0.21";
 const int TARGET_PORT = 8765;
 
 const int LOCAL_PORT = 9876;
